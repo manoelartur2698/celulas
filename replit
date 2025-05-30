@@ -1,12 +1,1 @@
-run = "uvicorn oraculo_api:app --host 0.0.0.0 --port 8000"
 
-[env]
-PINECONE_API_KEY = "7781d3f5-2d11-4e54-b486-7189f3cf06d3"
-PINECONE_ENVIRONMENT = "us-east-1"
-PINECONE_INDEX = "vazium"
-PINECONE_NAMESPACE = ""
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"
-TOP_K_MAX = "20"
-
-[interpreter]
-command = ["python3"]
