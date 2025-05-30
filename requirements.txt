@@ -1,5 +1,7 @@
 fastapi==0.110.2
 uvicorn[standard]==0.29.0
-pinecone>=3.0.0       # SDK atual
+pinecone>=3.0.0
 sentence-transformers==2.2.2
-torch==2.1.2+cpu --index-url https://download.pytorch.org/whl/cpu
+torch==2.1.2+cpu       --index-url https://download.pytorch.org/whl/cpu
+transformers==4.38.2
+gradio==4.20.1          # usado pelo hub
